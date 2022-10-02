@@ -1,0 +1,114 @@
+#homeHEader{
+    height: 640px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/src/components/layout/imgs/Hero.png);
+}
+
+.container{
+    margin-left: 15rem;
+   margin-right: 15rem;
+}
+
+.container h1{
+    width: 34rem;
+    color: hsla(226, 20%, 20%, 1);
+    font: 600 4rem 'Work Sans', sans-serif;
+    padding-top: 15rem;
+}
+
+
+section{
+    margin-top: 4rem;
+ 
+}
+
+.section1 h1{
+    font: 700 2em 'Work Sans', sans-serif;
+    color: #292E3D;
+    text-align: center;
+}
+
+.cards{
+    margin-top: 3.125rem;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+        display: flex;
+        padding-left: 1.25rem;
+        padding-right: 1.125rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+         width: 18.25rem;
+         gap: .5rem;
+        height: 12.3rem;
+        border: 1.4px solid #E0E3EB;
+        border-radius: .3rem;
+        background: #ffff;
+        
+}
+
+.card h2{
+    width: 16rem;
+    color: #3D445C;
+    font: 700 1.25rem 'Work Sans', sans-serif;
+}
+
+.card p{
+    /* Neutral/400 */
+    
+
+color: #858EAD;
+    font: 400 1rem 'Work Sans', sans-serif;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2 .img{
+    margin-left: 13rem;
+}
+.section2 .cardAbout{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 2.5rem;
+
+    color: #ffff;
+    position: absolute;
+    left: 57rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 33rem;
+    height: 33rem;
+    background:#2947A9 ;
+    box-shadow: 0px 20px 24px -4px rgba(17, 24, 39, 0.1), 0px 8px 8px -4px rgba(17, 24, 39, 0.04);
+border-radius: 2px;
+}
+
+.cardAbout h1{
+    margin-top: 2rem;
+    font: 700 2rem 'Work Sans', sans-serif;
+}
+
+.cardAbout p{
+    margin-top: 1.3rem;
+    width: 24.3rem;
+    font: 400 1.25rem 'Work Sans', sans-serif;
+}
+
+.cardAbout button{
+    margin-top: 2rem;
+    width: 14rem;
+    height: 3.3rem;
+    background: #FFFFFF;
+/* Primary */
+
+border: 2px solid #2947A9;
+border-radius: 6px;
+}
