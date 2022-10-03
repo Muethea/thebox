@@ -11,6 +11,9 @@
    margin-right: 15rem;
 }
 
+:root{
+    
+}
 .container h1{
     width: 34rem;
     color: hsla(226, 20%, 20%, 1);
@@ -35,7 +38,7 @@ section{
     display: flex;
     justify-content: space-between;
 }
-.card{
+.section1 .card{
         display: flex;
         padding-left: 1.25rem;
         padding-right: 1.125rem;
@@ -51,13 +54,13 @@ section{
         
 }
 
-.card h2{
+.section1 .card h2{
     width: 16rem;
     color: #3D445C;
     font: 700 1.25rem 'Work Sans', sans-serif;
 }
 
-.card p{
+.section1 .card p{
     /* Neutral/400 */
     
 
@@ -111,4 +114,68 @@ border-radius: 2px;
 
 border: 2px solid #2947A9;
 border-radius: 6px;
+}
+
+.services{
+    text-align: center;
+}
+
+.cards1{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.services{
+    background: #F6F8F7;
+}
+
+.services .card{
+      display: flex;
+        padding-left: 1.25rem;
+        padding-right: 1.125rem;
+        flex-direction: column;
+        justify-content: center;
+         gap: .5rem;
+        height: 12.3rem;
+        border: 1.4px solid #E0E3EB;
+        border-radius: .3rem;
+        width: 18rem;
+        
+        font: 700 .8rem 'Work Sans', sans-serif;
+}
+.cards2{
+    
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.back{
+
+    color: #FFFFFF;
+    background: #2947A9;
+    
+}
+.back h2{
+        text-align: center;
+}
+
+.services h1{
+    padding-top: 2rem;
+    color: #292E3D;
+     font: 700 2.4rem 'Work Sans', sans-serif;
+}
+.font{
+   
+    background: #FFFFFF;
+    color: #2947A9;
+}
+.linha{
+    display: flex;
+    justify-content: center;
+    margin-left: 6rem;
+    width: 4rem;
+   
 }
