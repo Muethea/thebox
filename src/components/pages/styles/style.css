@@ -333,3 +333,73 @@ color: rgba(102, 114, 153, 1);
        flex-direction: column;
     gap: 3rem;
 }
+
+.linkproject{
+    margin-top: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .8rem;
+
+}
+
+.linkproject button{
+    background: none;
+    border: none;
+    font: 600 1rem 'Work Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.all{
+     color: var(--color-primary);
+    margin-top: 1rem;
+     font: 700 1.4rem 'Work Sans', sans-serif;
+
+}
+
+.inative{
+    color:#C2C7D6 ;
+}
+
+.form{
+    
+   margin-top: 3rem;
+}
+
+.inpt{
+
+background: #FFFFFF;
+/* Neutral/100 */
+
+border: 1px solid #E0E3EB;
+border-radius: 4px;
+    padding-left: 1rem;
+      font: 400 1rem 'Work Sans', sans-serif;
+    margin: 1rem;
+    width: 18rem;
+    height: 3rem;
+}
+textarea{
+    padding-top: 1rem;
+    background: #FFFFFF;
+/* Neutral/100 */
+    padding-left: 1rem;
+border: 1px solid #E0E3EB;
+border-radius: 4px;
+  
+}
+
+
+.btnsub{
+    margin-top: 3rem;
+    width: 16rem;
+    height: 3rem;
+    color: var(--color-text-primary);
+    background: var(--color-primary);
+    border: none;
+    border-radius: .4rem;
+     font: 600 1.3rem 'Work Sans', sans-serif;
+}
