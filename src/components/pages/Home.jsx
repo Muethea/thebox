@@ -2,7 +2,7 @@ import React from "react";
 import service from "../layout/imgs/Vector.png";
 import design from "../layout/imgs/Vector2.png";
 import imgAbout from "../layout/imgs/about.png";
-
+import { BiPaintRoll } from "react-icons/bi";
 import "./styles/style.css";
 
 const Home = () => {
@@ -62,6 +62,7 @@ const Home = () => {
 
           <div className="cards1 container">
             <div className="card font">
+              <BiPaintRoll className="icons" />
               <hr className="linha" />
               <h2>Construction</h2>
             </div>

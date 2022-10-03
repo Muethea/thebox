@@ -7,29 +7,34 @@
 }
 
 .container{
-    margin-left: 15rem;
-   margin-right: 15rem;
+    margin-left: var(--margin);
+   margin-right: var(--margin);
 }
 
 :root{
-    
+    --margin:15rem;
+    --font-h1: 700 2em 'Work Sans', sans-serif;
+    --color-primary:#2947A9;
+    --color-text-secondary:#292E3D;
+    --color-text-primary:#ffffff;
+    --space-top: 4rem;
 }
 .container h1{
     width: 34rem;
-    color: hsla(226, 20%, 20%, 1);
+    color: --color-text-secondary;
     font: 600 4rem 'Work Sans', sans-serif;
-    padding-top: 15rem;
+    padding-top: var(--margin);
 }
 
 
 section{
-    margin-top: 4rem;
+    margin-top: var(--space-top);
  
 }
 
 .section1 h1{
-    font: 700 2em 'Work Sans', sans-serif;
-    color: #292E3D;
+    font: var(--font-h1);
+    color: var(--color-text-secondary);
     text-align: center;
 }
 
@@ -56,7 +61,7 @@ section{
 
 .section1 .card h2{
     width: 16rem;
-    color: #3D445C;
+    color:var(--color-text-secondary);
     font: 700 1.25rem 'Work Sans', sans-serif;
 }
 
@@ -82,21 +87,21 @@ color: #858EAD;
     gap: 2rem;
     padding-left: 2.5rem;
 
-    color: #ffff;
+    color: var(--color-text-primary);
     position: absolute;
     left: 57rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
     width: 33rem;
     height: 33rem;
-    background:#2947A9 ;
+    background:var(--color-primary) ;
     box-shadow: 0px 20px 24px -4px rgba(17, 24, 39, 0.1), 0px 8px 8px -4px rgba(17, 24, 39, 0.04);
 border-radius: 2px;
 }
 
 .cardAbout h1{
     margin-top: 2rem;
-    font: 700 2rem 'Work Sans', sans-serif;
+    font: var(--font-h1);
 }
 
 .cardAbout p{
@@ -168,14 +173,19 @@ border-radius: 6px;
      font: 700 2.4rem 'Work Sans', sans-serif;
 }
 .font{
-   
+   display: flex;
+   align-items: center;
     background: #FFFFFF;
     color: #2947A9;
 }
 .linha{
     display: flex;
     justify-content: center;
-    margin-left: 6rem;
+
     width: 4rem;
    
+}
+
+.icons{
+    font-size: 2rem;
 }
